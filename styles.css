@@ -36,7 +36,6 @@ body {
 }
 
 .card:hover {
-    transform: translateY(-5px);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
 }
 
@@ -46,7 +45,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f8f5ff;
+    background: #8B5CF6;
     border-bottom: 1px solid #e0d2ff;
 }
 
@@ -55,13 +54,13 @@ body {
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #8B5CF6;
+    border: 3px solid white;
 }
 
 .facebook-icon {
     position: absolute;
     top: 10px;
-    left: 10px;
+    right: 10px;
     color: #8B5CF6;
     font-size: 18px;
     background: white;
@@ -72,7 +71,7 @@ body {
 
 .twitter-icon {
     position: absolute;
-    top: 10px;
+    top: 50px;
     right: 10px;
     color: #8B5CF6;
     font-size: 18px;
